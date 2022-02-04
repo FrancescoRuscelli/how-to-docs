@@ -97,5 +97,6 @@
 	make buildandcommithtml
 	```	
 
-and now the documentation page of the github project is ready! https://user.github.io/my_project
-You can populate the docs with rst files manually...
+and now the documentation page of the github project is ready! (*example: https://user.github.io/my_project*)   
+
+You can populate the docs with rst files manually or [automatically](instruction-automatic-docs.md).
