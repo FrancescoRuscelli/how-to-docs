@@ -7,7 +7,7 @@ The documentation will display as a web page filled with all the information you
 
 ## Generating the documentation
 
-Guidelines for [building gh-pages](instruction-gh-pages.md) and [automatic docs generation](instructions-automatic-docs).
+Guidelines for [building gh-pages](instruction-gh-pages.md) and [automatic docs generation](instructions-automatic-docs.md).
 
 
 
