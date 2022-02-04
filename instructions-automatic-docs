@@ -1,0 +1,20 @@
+**... or you can populate the docs automatically, by using the following procedure:**
+
+1. make sure you have the following packages:
+	```
+	sudo apt-get install python3-sphinx
+	pip install sphinxcontrib-napoleon
+	```
+	(used to parse google style docstrings)
+	
+2. if not already present, make sure in conf.py you have:
+	extensions = ['sphinx.ext.autodoc',
+    		      'sphinx.ext.githubpages',
+                      'sphinx.ext.napoleon']
+                     
+3. build your API documentation. This will create all the .rst files from your project in docs
+	sphinx-apidoc -f -o docs/source projectdir
+	
+4. if some import errors shows up, add in your conf.py in docs:
+	autodoc_mock_imports = ["missing_package"]
+  
