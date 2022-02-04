@@ -99,4 +99,4 @@
 
 and now the documentation page of the github project is ready! (*example: https://user.github.io/my_project*)   
 
-You can populate the docs with rst files manually or [automatically](instructions-automatic-docs).
+You can populate the docs with rst files manually or [automatically](instructions-automatic-docs.md).
